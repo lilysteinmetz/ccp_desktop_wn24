@@ -1,0 +1,270 @@
+.skip-to-main-content-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+  } 
+  .skip-to-main-content-link:focus {
+    transform: translateY(0%);
+  }
+  .current-page {
+    font-weight: bold;
+    text-decoration: underline; 
+}
+.current-page:hover {
+    background-color: white;
+    }
+
+@media screen and (min-width:550px){
+    body {
+        display: inline;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: white;
+        color: black;
+        margin: 20px 20px 0px 20px;
+    }
+    h1 {
+        font-size:xx-large;
+        font-weight:bolder;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        text-align: center;     
+    }
+    p {
+        font-size: large;
+        font-weight: 400;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;       
+    }
+    .photo_gallery_travel1, .photo_gallery_travel2, .photo_gallery_travel3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);       
+    }
+    .photo_gallery_pets1, .photo_gallery_pets2, .photo_gallery_pets3, .photo_gallery_pets4, .photo_gallery_pets5 {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);       
+    }
+    .photos_recipe1, .photos_recipe2, .photos_recipe3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);    
+    }
+    #nuonuo{
+        width: 90px
+    }
+    #bacon{ 
+        width:140px
+    }
+    #spaghetti{
+        width:200px
+    }
+    #stuffed_peppers{
+        width:150px
+    }
+    #banana{
+        width: 100px
+    }
+    img,video {
+        width: 175px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: dashed 5px peachpuff;       
+    }
+    div{
+        font-size: larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        text-align: center;
+    }
+    div.spaghetti, div.peppers, div.banana, div.bacon, div.Charli, div.Garfield, div.Sunny, div.Nuonuo, div.hawaii, div.italy, div.taiwan{
+        font-weight: 300;
+        text-align: left;
+        padding-left: 3%;
+    }
+
+    div.spaghetti p, div.peppers p, div.banana p, div.bacon p, div.Charli p, div.Garfield p, div.Sunny p, div.Nuonuo p, div.hawaii p, div.italy p, div.taiwan p{
+        text-align: center;
+        padding-top: 2%;
+    }
+    div.spaghetti h1, div.peppers h1, div.bananas h1, div.bacon h1, div.Charli h1, div.Garfield h1, div.Sunny h1, div.Nuonuo h1, div.hawaii h1, div.italy h1, div.taiwan h1{
+        font-size: x-large;
+        font-weight: 600;       
+    }
+    div.spaghetti h2, div.peppers h2, div.banana h2, div.bacon h2, div.Charli h2, div.Garfield h2, div.Sunny h2, div.Nuonuo h2, div.hawaii h2, div.italy h2, div.taiwan h2{
+        text-align: center;
+        font-size: xx-large;
+        padding-bottom: 3%;       
+    }
+    div.spaghetti h3, div.peppers h3, div.banana h3, div.bacon h3, div.Charli h3, div.Garfield h3, div.Sunny h3, div.Nuonuo h3, div.hawaii h3, div.italy h3, div.taiwan h3{
+        font-size: medium;
+        font-weight: 300;
+        padding-top: 1%;
+        padding-bottom: 1%;       
+    }
+    div.spaghetti h4, div.peppers h4, div.banana h4, div.bacon h4, div.Charli h4, div.Garfield h4, div.Sunny h4, div.Nuonuo h4, div.hawaii h4, div.italy h4, div.taiwan h4{
+        font-size: large;
+        font-weight: 800;
+        padding-bottom: 3%;
+        padding-top: 3%;       
+    }
+    @media (prefers-reduced-motion:reduce) {
+        .animation1, .animation2, .animation3 {
+        animation: none;       
+        }
+    }
+}
+@media screen and (min-width:800px) {
+    .fade-in { 
+        animation: fadeIn 5s;
+    }
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }     
+    body {
+        display: inline;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+        margin: 20px 20px 0px 20px;
+        background-color: plum;
+    }
+    h1 {
+        font-size:xx-large;
+        font-weight:bolder;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        text-align: center;     
+    }
+    p {
+        font-size: large;
+        font-weight: 400;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;       
+    }
+    .photo_gallery_travel1, .photo_gallery_travel2, .photo_gallery_travel3 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);       
+    }
+    .photo_gallery_pets1, .photo_gallery_pets2, .photo_gallery_pets3, .photo_gallery_pets4, .photo_gallery_pets5 {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);       
+    }
+    .photos_recipe1, .photos_recipe2, .photos_recipe3 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);       
+    }
+    #nuonuo{
+        width: 90px
+    }
+    #spaghetti{
+        width:200px
+    }
+    #stuffed_peppers{
+        width:150px
+    }
+    #banana{
+        width: 100px
+    }
+    img,video {
+        width: 175px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: dotted 5px darkmagenta;      
+    }
+    #bacon{ 
+        width:140px;       
+    }
+    div{
+        font-size: larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        text-align: center;
+    }
+    div.spaghetti, div.peppers, div.banana, div.bacon, div.Charli, div.Garfield, div.Sunny, div.Nuonuo, div.hawaii, div.italy, div.taiwan{
+        font-weight: 300;
+        text-align: left;
+        padding-left: 3%;
+    }
+    div.pets_home{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    div.recipes_home{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    div.travel_home{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    div.spaghetti p, div.peppers p, div.banana p, div.bacon p, div.Charli p, div.Garfield p, div.Sunny p, div.Nuonuo p, div.hawaii p, div.italy p, div.taiwan p{
+        text-align: center;
+        padding-top: 2%;
+    }
+    div.spaghetti h1, div.peppers h1, div.bananas h1, div.bacon h1, div.Charli h1, div.Garfield h1, div.Sunny h1, div.Nuonuo h1, div.hawaii h1, div.italy h1, div.taiwan h1{
+        font-size: x-large;
+        font-weight: 600;
+        
+    }
+    div.spaghetti h2, div.peppers h2, div.banana h2, div.bacon h2, div.Charli h2, div.Garfield h2, div.Sunny h2, div.Nuonuo h2, div.hawaii h2, div.italy h2, div.taiwan h2{
+        text-align: center;
+        font-size: xx-large;
+        padding-bottom: 3%;       
+    }
+    div.spaghetti h3, div.peppers h3, div.banana h3, div.bacon h3, div.Charli h3, div.Garfield h3, div.Sunny h3, div.Nuonuo h3, div.hawaii h3, div.italy h3, div.taiwan h3{
+        font-size: medium;
+        font-weight: 300;
+        padding-top: 1%;
+        padding-bottom: 1%;       
+    }
+    div.spaghetti h4, div.peppers h4, div.banana h4, div.bacon h4, div.Charli h4, div.Garfield h4, div.Sunny h4, div.Nuonuo h4, div.hawaii h4, div.italy h4, div.taiwan h4{
+        font-size: large;
+        font-weight: 800;
+        padding-bottom: 3%;
+        padding-top: 3%;        
+    }
+    @media (prefers-reduced-motion:reduce) {
+        .animation1, .animation2, .animation3 {
+        animation: none;       
+        }
+    }
+}
+    @media screen and (min-width:1000px){
+        body {display: inline;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: coral;
+        color: black;
+        margin: 20px 20px 0px 20px;
+        }
+        .photo_gallery_travel1, .photo_gallery_travel2, .photo_gallery_travel3 {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);       
+        }
+        .photo_gallery_pets1, .photo_gallery_pets2, .photo_gallery_pets3, .photo_gallery_pets4, .photo_gallery_pets5 {
+            display:grid;
+            grid-template-columns: repeat(6, 1fr);       
+        }
+        .photos_recipe1, .photos_recipe2, .photos_recipe3 {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);       
+        }
+        img,video {
+            width: 175px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: dashed 5px white;  
+        }
+    }
