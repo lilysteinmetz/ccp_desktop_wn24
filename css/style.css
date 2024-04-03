@@ -179,7 +179,9 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        border: dotted 5px darkmagenta;      
+        border: dotted 5px darkmagenta; 
+
+        }           
     }
     #bacon{ 
         width:140px;       
@@ -240,7 +242,7 @@
         animation: none;       
         }
     }
-}
+
     @media screen and (min-width:1000px){
         body {display: inline;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -266,5 +268,6 @@
             margin-left: auto;
             margin-right: auto;
             border: dashed 5px white;  
+            transition: border-width 0.6s linear;
         }
     }
