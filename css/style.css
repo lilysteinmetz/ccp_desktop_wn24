@@ -247,7 +247,7 @@
         body {
             display: inline;
             font-family: Georgia, 'Times New Roman', Times, serif;
-            background-color: coral;
+            background-color: rgb(194, 239, 194);
             color: black;
             margin: 20px 20px 0px 20px;
         }
@@ -281,7 +281,7 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            border: dashed 5px white;
+            border: dashed 5px rgb(17, 83, 17);
             transition: border-color 0.3s ease; 
         }
     
